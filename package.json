@@ -1,4 +1,5 @@
 {
+  "homepage": "http://zafeirisdimi.github.io/TeamProjectReact",
   "name": "project",
   "version": "0.1.0",
   "private": true,
@@ -24,8 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
-		"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "api": "json-server --watch db.json --port 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
